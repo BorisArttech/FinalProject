@@ -1,7 +1,6 @@
 package com.example.boris3327.finalproject;
 
 import android.content.Intent;
-import android.icu.text.BreakIterator;
 import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -20,6 +19,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         tvNum = (TextView) findViewById(R.id.tvNum);
         tvMap = (TextView) findViewById(R.id.tvMap);
+        tvSite = (TextView) findViewById(R.id.tvSite);
 
         tvNum.setOnClickListener(this);
         tvMap.setOnClickListener(this);
